@@ -1,0 +1,33 @@
+.tile{
+    border: 2px solid black;
+    min-width: 20px;
+    min-height: 20px;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+.tile-black{
+    background-color: black;
+}
+
+.tile-green{
+    background-color: green;
+    animation: 0.5s infinite blink alternate;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 100%
+    }
+    40%{
+        opacity: 100%
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+.greyed{ 
+    background-color: rgb(180, 180, 180);
+    animation: none;
+}
